@@ -1,0 +1,389 @@
+{
+  "Architecture": {
+    "templateComponents": {
+      "template-1": {
+        "shared": {
+          "Header": "ArchitectureHeader1",
+          "Footer": "ArchitectureFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Banner",
+                "component": "ArchitectureBanner1"
+              },
+              {
+                "key": "About",
+                "component": "ArchitectureAbout1"
+              },
+              {
+                "key": "Services",
+                "component": "ArchitectureServices1"
+              },
+              {
+                "key": "Projects",
+                "component": "ArchitectureProjects1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "ArchitectureWhyChooseUs1"
+              },
+              {
+                "key": "Testimonial",
+                "component": "ArchitectureTestimonial1"
+              },
+              {
+                "key": "Contact",
+                "component": "ArchitectureContact1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sections": {
+      "Header": {
+        "variants": {
+          "ArchitectureHeader1": {
+            "logo": "/nav-logo.png",
+            "brand": {
+              "name": "NOVEKTA",
+              "subtitle": "ARCHITECTURE & DESIGN STUDIO",
+              "established": "2012"
+            },
+            "links": [
+              {
+                "name": "Home",
+                "href": "#home",
+                "active": true
+              },
+              {
+                "name": "About Us",
+                "href": "#about"
+              },
+              {
+                "name": "Services",
+                "href": "#services"
+              },
+              {
+                "name": "Our Projects",
+                "href": "#projects"
+              },
+              {
+                "name": "Why Choose Us",
+                "href": "#why-us"
+              },
+              {
+                "name": "Testimonials",
+                "href": "#testimonials"
+              }
+            ],
+            "button": {
+              "text": "Contact Us",
+              "href": "#contact"
+            }
+          }
+        }
+      },
+      "Banner": {
+        "variants": {
+          "ArchitectureBanner1": {
+            "eyebrow": "ARCHITECTURE  /  INTERIORS  /  PLANNING",
+            "headingPart1": "WE DESIGN",
+            "headingPart2": "LIVING SPACES",
+            "description": "Thoughtful Architecture, Functional Design and Timeless Spaces for Modern Living.",
+            "button": {
+              "text": "Contact Us",
+              "href": "#contact"
+            },
+            "slides": [
+              {
+                "id": "slide-1",
+                "kicker": "ARCHITECTURE  /  INTERIORS  /  PLANNING",
+                "titleLine1": "WE DESIGN",
+                "titleLine2": "LIVING SPACES",
+                "description": "Thoughtful Architecture, Functional Design and Timeless Spaces for Modern Living.",
+                "image": "/hero-banner.png",
+                "houseImage": "/hero-house.png",
+                "tag": "Gable Glass Villa • 2026"
+              },
+              {
+                "id": "slide-2",
+                "kicker": "BESPOKE SPATIAL INNOVATION",
+                "titleLine1": "WE CRAFT",
+                "titleLine2": "TIMELESS HOMES",
+                "description": "Where sculptural elegance meets ecological balance and intuitive human flow.",
+                "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+                "houseImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+                "tag": "Lakefront Glass Estate • 2026"
+              },
+              {
+                "id": "slide-3",
+                "kicker": "CONTEMPORARY MASTER PLANNING",
+                "titleLine1": "WE SHAPE",
+                "titleLine2": "URBAN HORIZONS",
+                "description": "Pioneering architectural landmarks that harmonize culture, luxury, and technology.",
+                "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
+                "houseImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
+                "tag": "Cantilevered Hillside Retreat • 2025"
+              }
+            ]
+          }
+        }
+      },
+      "About": {
+        "variants": {
+          "ArchitectureAbout1": {
+            "eyebrow": "ABOUT US",
+            "headingPart1": "Designing Spaces",
+            "headingPart2": "With Purpose And",
+            "headingHighlight": "Precision",
+            "description": "At NOVEKTA, we create thoughtful, functional and timeless spaces that blend aesthetics, innovation and practicality. From concept to completion, we turn ideas into environments that enhance the way people live, work and experience spaces.",
+            "establishedBadge": "EST. 2012",
+            "mainImage": "/about-visual.png",
+            "features": [
+              {
+                "icon": "Building2",
+                "title": "Architecture"
+              },
+              {
+                "icon": "Sofa",
+                "title": "Interior Design"
+              },
+              {
+                "icon": "Layers",
+                "title": "Space Planning"
+              }
+            ]
+          }
+        }
+      },
+      "Services": {
+        "variants": {
+          "ArchitectureServices1": {
+            "eyebrow": "OUR SERVICES",
+            "leftSubtitle": "Precise planning creates stronger architectural outcomes today",
+            "headingPart1": "Comprehensive Architectural",
+            "headingPart2": "Solutions for",
+            "headingHighlight": "Modern Spaces",
+            "description": "From concept and planning to design and execution, we deliver spaces that are functional, aesthetic and future ready.",
+            "items": [
+              {
+                "category": "Residential",
+                "title": "Building Design",
+                "image": "/services-photo-1.png",
+                "icon": "Home"
+              },
+              {
+                "category": "Architectural",
+                "title": "Strategy Concepts",
+                "image": "/services-photo-2.png",
+                "icon": "Layers"
+              },
+              {
+                "category": "Commercial",
+                "title": "Space Planning",
+                "image": "/services-photo-3.png",
+                "icon": "Building2"
+              }
+            ]
+          }
+        }
+      },
+      "Projects": {
+        "variants": {
+          "ArchitectureProjects1": {
+            "eyebrow": "OUR PROJECTS",
+            "headingPart1": "Selected Projects Shaped by Clarity,",
+            "headingPart2": "Purpose and",
+            "headingHighlight": "Refined Spatial Thinking",
+            "categories": [
+              {
+                "id": "civic-atrium",
+                "categoryName": "Civic Atrium",
+                "title": "Public Interior Organized Through Light and Circulation",
+                "description": "Open circulation paths organize the atrium while skylights reinforce orientation, comfort and visual connection between levels for visitors.",
+                "area": "9,700 m²",
+                "year": "2026",
+                "location": "Geneva, Switzerland",
+                "image": "/project-civic-atrium.jpg"
+              },
+              {
+                "id": "harbor-residence",
+                "categoryName": "Harbor Residence",
+                "title": "Cantilevered Glass Villa Framed by Natural Terrains",
+                "description": "Seamlessly dissolving boundaries between interior luxury and panoramic landscape with passive solar orientation and natural cedar details.",
+                "area": "1,450 m²",
+                "year": "2025",
+                "location": "Lake Como, Italy",
+                "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80"
+              },
+              {
+                "id": "linear-offices",
+                "categoryName": "Linear Offices",
+                "title": "Louvered Biophilic Tower with Multi-Tier Sky Gardens",
+                "description": "Next-generation corporate headquarters engineered for net-zero carbon operations, acoustic quietude, and daylight harvesting.",
+                "area": "24,800 m²",
+                "year": "2026",
+                "location": "Stockholm, Sweden",
+                "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80"
+              },
+              {
+                "id": "garden-pavilion",
+                "categoryName": "Garden Pavilion",
+                "title": "The Sculptural Atrium: Waterfront Cultural Pavilion",
+                "description": "A sweeping civic landmark combining fluid public promenades, retail gallerias, and sculpted skylights inspired by natural coastal dunes.",
+                "area": "18,200 m²",
+                "year": "2025",
+                "location": "Copenhagen, Denmark",
+                "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1400&q=80"
+              }
+            ]
+          }
+        }
+      },
+      "WhyChooseUs": {
+        "variants": {
+          "ArchitectureWhyChooseUs1": {
+            "eyebrow": "WHY CHOOSE US",
+            "headingPart1": "Spaces That Combine",
+            "headingPart2": "Design, Function and",
+            "headingHighlight": "Lasting Value",
+            "description": "A design-led, detail-focused approach that turns ideas into functional, timeless and inspiring spaces.",
+            "image": "/why-choose-us-visual.png",
+            "features": [
+              {
+                "icon": "Layers",
+                "title": "Design Expertise",
+                "description": "Thoughtful, innovative and context-driven design solutions."
+              },
+              {
+                "icon": "DraftingCompass",
+                "title": "Functional Spaces",
+                "description": "Well-planned layouts that enhance everyday living and working."
+              },
+              {
+                "icon": "Leaf",
+                "title": "Sustainable Approach",
+                "description": "Efficient, responsible and future-ready design practices."
+              },
+              {
+                "icon": "Award",
+                "title": "Quality & Precision",
+                "description": "Meticulous attention to detail from concept to completion."
+              }
+            ]
+          }
+        }
+      },
+      "Testimonial": {
+        "variants": {
+          "ArchitectureTestimonial1": {
+            "eyebrow": "TESTIMONIALS",
+            "headingPart1": "What Our Clients Say",
+            "headingHighlight": "About Us",
+            "description": "Trusted by homeowners, businesses, and developers for thoughtful, functional, and timeless architectural solutions.",
+            "items": [
+              {
+                "quote": "Novekta transformed our vision into reality. Their attention to detail, spatial planning, and design flair exceeded our expectations in every way.",
+                "name": "Rahul Mehta",
+                "role": "Homeowner",
+                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&h=200&q=80",
+                "rating": 5,
+                "highlight": false
+              },
+              {
+                "quote": "A professional and creative team that delivered stunning, sustainable designs on time and within budget. Their spatial planning is truly exceptional.",
+                "name": "Ananya Sharma",
+                "role": "Commercial Client",
+                "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&h=200&q=80",
+                "rating": 5,
+                "highlight": true
+              },
+              {
+                "quote": "From initial concepts to execution, Novekta showed unmatched dedication to quality and innovative design. Our property value increased substantially.",
+                "name": "Michael Scott",
+                "role": "Property Developer",
+                "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&h=200&q=80",
+                "rating": 5,
+                "highlight": false
+              }
+            ]
+          }
+        }
+      },
+      "Contact": {
+        "variants": {
+          "ArchitectureContact1": {
+            "eyebrow": "CONTACT US",
+            "headingPart1": "Let's Create Your",
+            "headingHighlight": "Next Space",
+            "description": "Have a project in mind? Reach out to discuss your vision and discover how we can bring it to life.",
+            "office": {
+              "title": "Our Office",
+              "address": "Charlrs Fingers 4535 25th Ave Schiller Park, IL 60176 United States"
+            },
+            "phone": {
+              "title": "Call Us",
+              "number": "+1 000-000-000"
+            },
+            "email": {
+              "title": "Email Us",
+              "address": "info@xyz.com"
+            },
+            "form": {
+              "title": "Send Us a Message",
+              "subtitle": "Fill in the details below and an architectural consultant will be in touch.",
+              "projectTypes": [
+                "Residential Architecture",
+                "Commercial Space Planning",
+                "Urban Housing Concept",
+                "Interior Design & Renovation"
+              ],
+              "buttonText": "Send Message"
+            }
+          }
+        }
+      },
+      "Footer": {
+        "variants": {
+          "ArchitectureFooter1": {
+            "logo": "/footer-logo.png",
+            "description": "Creating timeless and functional spaces that redefine modern living. From bespoke residences to urban landmarks, we shape environments with vision and precision.",
+            "quickLinks": [
+              {
+                "name": "Home",
+                "href": "#home"
+              },
+              {
+                "name": "About Us",
+                "href": "#about"
+              },
+              {
+                "name": "Our Projects",
+                "href": "#projects"
+              },
+              {
+                "name": "Services",
+                "href": "#services"
+              },
+              {
+                "name": "Contact Us",
+                "href": "#contact"
+              }
+            ],
+            "contact": {
+              "address": "Charlrs Fingers 4535 25th Ave Schiller Park, IL 60176 United States",
+              "phone": "+1 000-000-000",
+              "email": "info@xyz.com"
+            },
+            "bottomBar": {
+              "copyright": "© 2026 All Rights Reserved. Powered by Lestow"           
+            }
+          }
+        }
+      }
+    }
+  }
+}
