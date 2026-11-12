@@ -4,6 +4,7 @@ import React from "react";
 import Logo from "./Logo";
 import { MapPin, Phone, Mail } from "lucide-react";
 import { footerData, headerData } from "@/app/data/contentExport";
+import AnimateReveal from "./AnimateReveal";
 
 export default function Footer() {
   return (
@@ -76,7 +77,8 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 sm:px-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 pb-16">
+        <AnimateReveal direction="up" duration={800}>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 pb-16">
           <div className="lg:col-span-5 flex flex-col justify-start">
             <a href="#home" className="inline-block mb-6">
               <Logo
@@ -155,6 +157,7 @@ export default function Footer() {
            
           </div>
         </div>
+        </AnimateReveal>
       </div>
     </footer>
   );
