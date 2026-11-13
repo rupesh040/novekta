@@ -13,8 +13,8 @@ export default function Projects() {
     projectsData.categories[0];
 
   return (
-    <section id="projects" className="py-20 sm:py-24 lg:py-28 bg-white text-neutral-900 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+    <section id="projects" className="py-6 bg-white text-neutral-900 overflow-hidden">
+      <div className="max-w-[1450px] mx-auto px-6 sm:px-8 lg:px-12">
         <AnimateReveal direction="up" duration={800}>
           <div className="text-center max-w-4xl mx-auto mb-10 sm:mb-12">
             <div className="inline-flex items-center justify-center gap-3 sm:gap-4 mb-4">

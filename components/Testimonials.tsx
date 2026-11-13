@@ -21,9 +21,9 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="py-24 lg:py-32 bg-[#faf8f5] text-neutral-900 relative overflow-hidden"
+      className="py-6 bg-[#faf8f5] text-neutral-900 relative overflow-hidden"
     >
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+      <div className="max-w-[1450px] mx-auto px-6 sm:px-8">
         <AnimateReveal direction="up" duration={800}>
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center gap-3 mb-4">
@@ -47,7 +47,7 @@ export default function Testimonials() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch mb-12">
           {items.map((item, idx) => {
-            const isCenter = item.highlight;
+            const isCenter = activeIndex === idx;
             const isCurrentMobile = activeIndex === idx;
 
             return (
@@ -59,15 +59,24 @@ export default function Testimonials() {
                 className={`h-full ${isCurrentMobile ? "block" : "hidden md:block"}`}
               >
                 <div
-                  className={`relative rounded-2xl p-8 flex flex-col justify-between transition-all duration-300 h-full ${
+                  onClick={() => setActiveIndex(idx)}
+                  className={`relative rounded-2xl p-8 flex flex-col justify-between transition-all duration-300 h-full cursor-pointer ${
                     isCenter
-                      ? "bg-[#faf3e7]/80 border-2 border-[#C59D5F] shadow-2xl md:-translate-y-2"
-                      : "bg-white border border-neutral-200/80 shadow-md hover:shadow-xl"
+                      ? "bg-[#faf3e7]/90 border-2 border-[#C59D5F] shadow-2xl md:-translate-y-2 ring-1 ring-[#C59D5F]/30"
+                      : "bg-white border border-neutral-200/80 shadow-md opacity-85 hover:opacity-100 hover:shadow-xl hover:border-neutral-300"
                   }`}
                 >
                   <div>
-                    <div className="text-[#B08748] mb-6">
-                      <Quote size={36} className="fill-[#C59D5F]/20 rotate-180" />
+                    <div className="flex items-center justify-between mb-6">
+                      <div className="text-[#B08748]">
+                        <Quote size={36} className="fill-[#C59D5F]/20 rotate-180" />
+                      </div>
+                      {isCenter && (
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#C59D5F]/15 text-[#B08748] text-xs font-bold uppercase tracking-wider">
+                          <span className="w-1.5 h-1.5 rounded-full bg-[#C59D5F] animate-pulse" />
+                          Featured
+                        </span>
+                      )}
                     </div>
 
                     <div className="flex items-center gap-1 mb-4 text-[#C59D5F]">
@@ -82,7 +91,11 @@ export default function Testimonials() {
                   </div>
 
                   <div className="flex items-center gap-4 pt-6 border-t border-neutral-200/80">
-                    <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-[#C59D5F] shrink-0">
+                    <div
+                      className={`relative w-12 h-12 rounded-full overflow-hidden border-2 shrink-0 transition-colors duration-300 ${
+                        isCenter ? "border-[#C59D5F]" : "border-neutral-300"
+                      }`}
+                    >
                       <Image
                         src={item.image}
                         alt={item.name}
@@ -109,19 +122,21 @@ export default function Testimonials() {
         <AnimateReveal direction="up" delay={200} duration={800}>
           <div className="flex items-center justify-center gap-6 pt-4">
             <button
+              type="button"
               onClick={prevCard}
-              className="w-10 h-10 rounded-full border border-neutral-300 hover:border-[#C59D5F] bg-white flex items-center justify-center text-neutral-600 hover:text-[#B08748] shadow-sm transition-all"
+              className="w-11 h-11 rounded-full border border-neutral-300 hover:border-[#C59D5F] bg-white flex items-center justify-center text-neutral-600 hover:text-[#B08748] shadow-sm hover:shadow-md transition-all cursor-pointer active:scale-95"
               aria-label="Previous testimonial"
             >
-              <ChevronLeft size={18} />
+              <ChevronLeft size={20} />
             </button>
 
             <div className="flex items-center gap-2">
               {items.map((_, i) => (
                 <button
                   key={i}
+                  type="button"
                   onClick={() => setActiveIndex(i)}
-                  className={`h-[3px] rounded-full transition-all duration-300 ${
+                  className={`h-2.5 rounded-full transition-all duration-300 cursor-pointer ${
                     activeIndex === i
                       ? "w-8 bg-[#C59D5F]"
                       : "w-3 bg-neutral-300 hover:bg-neutral-400"
@@ -132,11 +147,12 @@ export default function Testimonials() {
             </div>
 
             <button
+              type="button"
               onClick={nextCard}
-              className="w-10 h-10 rounded-full border border-neutral-300 hover:border-[#C59D5F] bg-white flex items-center justify-center text-neutral-600 hover:text-[#B08748] shadow-sm transition-all"
+              className="w-11 h-11 rounded-full border border-neutral-300 hover:border-[#C59D5F] bg-white flex items-center justify-center text-neutral-600 hover:text-[#B08748] shadow-sm hover:shadow-md transition-all cursor-pointer active:scale-95"
               aria-label="Next testimonial"
             >
-              <ChevronRight size={18} />
+              <ChevronRight size={20} />
             </button>
           </div>
         </AnimateReveal>

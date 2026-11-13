@@ -9,8 +9,8 @@ import AnimateReveal from "./AnimateReveal";
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 sm:py-24 lg:py-28 bg-white text-neutral-900 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+    <section id="services" className="py-6 bg-white text-neutral-900 overflow-hidden">
+      <div className="max-w-[1450px] mx-auto px-6 sm:px-8 lg:px-12">
         <AnimateReveal direction="up" duration={800}>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center mb-14 sm:mb-16">
             <div className="lg:col-span-4">
@@ -62,8 +62,9 @@ export default function Services() {
                 duration={800}
                 className="h-full"
               >
-                <div
-                  className="group relative overflow-hidden bg-[#141618] shadow-md transition-all duration-500 hover:shadow-2xl h-full"
+                <a
+                  href="#contact"
+                  className="group relative block overflow-hidden bg-[#141618] shadow-md transition-all duration-500 hover:shadow-2xl h-full cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#B08748]"
                 >
                   <div className="relative aspect-[320/378] w-full overflow-hidden">
                     <Image
@@ -91,16 +92,15 @@ export default function Services() {
                         </div>
                       </div>
 
-                      <button
-                        type="button"
-                        aria-label={`${service.category} ${service.title}`}
-                        className="w-9 h-9 sm:w-10 sm:h-10 bg-[#B08748] group-hover:bg-[#97713a] text-white flex items-center justify-center shrink-0 ml-3 transition-colors duration-300 cursor-pointer"
+                      <span
+                        aria-hidden="true"
+                        className="w-9 h-9 sm:w-10 sm:h-10 bg-[#B08748] group-hover:bg-[#97713a] text-white flex items-center justify-center shrink-0 ml-3 transition-colors duration-300"
                       >
                         <ArrowRight size={16} strokeWidth={2.2} className="transition-transform duration-300 group-hover:translate-x-0.5" />
-                      </button>
+                      </span>
                     </div>
                   </div>
-                </div>
+                </a>
               </AnimateReveal>
             );
           })}

@@ -8,8 +8,8 @@ import AnimateReveal from "./AnimateReveal";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 sm:py-24 lg:py-28 bg-[#faf8f6] text-neutral-900 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+    <section id="about" className="py-6 bg-[#faf8f6] text-neutral-900 overflow-hidden">
+      <div className="max-w-[1450px] mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-center">
           <div className="lg:col-span-6 relative flex items-center justify-center">
             <AnimateReveal direction="right" duration={850} className="w-full flex justify-center">

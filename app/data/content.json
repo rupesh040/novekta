@@ -105,7 +105,7 @@
                 "titleLine2": "LIVING SPACES",
                 "description": "Thoughtful Architecture, Functional Design and Timeless Spaces for Modern Living.",
                 "image": "/hero-banner.png",
-                "houseImage": "/hero-house.png",
+                "houseImage": "/hero-houses.png",
                 "tag": "Gable Glass Villa • 2026"
               },
               {
@@ -141,7 +141,7 @@
             "headingHighlight": "Precision",
             "description": "At NOVEKTA, we create thoughtful, functional and timeless spaces that blend aesthetics, innovation and practicality. From concept to completion, we turn ideas into environments that enhance the way people live, work and experience spaces.",
             "establishedBadge": "EST. 2012",
-            "mainImage": "/about-visual.png",
+            "mainImage": "/abouts-visual.png",
             "features": [
               {
                 "icon": "Building2",
@@ -172,19 +172,19 @@
               {
                 "category": "Residential",
                 "title": "Building Design",
-                "image": "/services-photo-1.png",
+                "image": "/services-photo-1s.png",
                 "icon": "Home"
               },
               {
                 "category": "Architectural",
                 "title": "Strategy Concepts",
-                "image": "/services-photo-2.png",
+                "image": "/services-photo-2s.png",
                 "icon": "Layers"
               },
               {
                 "category": "Commercial",
                 "title": "Space Planning",
-                "image": "/services-photo-3.png",
+                "image": "/services-photo-3s.png",
                 "icon": "Building2"
               }
             ]
@@ -251,7 +251,7 @@
             "headingPart2": "Design, Function and",
             "headingHighlight": "Lasting Value",
             "description": "A design-led, detail-focused approach that turns ideas into functional, timeless and inspiring spaces.",
-            "image": "/why-choose-us-visual.png",
+            "image": "/abouts-visual.png",
             "features": [
               {
                 "icon": "Layers",

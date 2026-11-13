@@ -8,7 +8,7 @@ import AnimateReveal from "./AnimateReveal";
 
 export default function Footer() {
   return (
-    <footer className="relative bg-[#0c1014] text-neutral-300 pt-20 pb-10 border-t border-white/10 overflow-hidden">
+    <footer className="relative bg-[#0c1014] text-neutral-300 pt-10 pb-10 border-t border-white/10 overflow-hidden">
       <div className="absolute right-0 bottom-0 w-[420px] h-[340px] opacity-[0.07] pointer-events-none select-none">
         <svg
           viewBox="0 0 500 400"

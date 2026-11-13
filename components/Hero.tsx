@@ -33,7 +33,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-[720px] sm:min-h-[820px] lg:min-h-[900px] xl:min-h-[960px] bg-[#0a0c0e] bg-gradient-to-r from-[#0a0c0e] via-[#0d1013] to-[#121519] text-white pt-32 sm:pt-36 lg:pt-44 xl:pt-48 pb-20 sm:pb-24 lg:pb-28 flex items-center overflow-hidden"
+      className="relative min-h-[640px] sm:min-h-[700px] lg:min-h-[760px] xl:min-h-[820px] bg-[#0a0c0e] bg-gradient-to-r from-[#0a0c0e] via-[#0d1013] to-[#121519] text-white pt-24 sm:pt-28 lg:pt-32 xl:pt-36 pb-12 sm:pb-16 lg:pb-20 flex items-center overflow-hidden"
     >
       <div className="absolute right-0 top-0 bottom-0 w-full lg:w-[64%] xl:w-[62%] h-full pointer-events-none">
         <Image
@@ -51,7 +51,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-[#0a0c0e] via-transparent via-25% to-transparent pointer-events-none z-1" />
 
       <div className="relative max-w-7xl mx-auto px-6 sm:px-8 w-full z-10">
-        <div className="max-w-xl lg:max-w-xl xl:max-w-2xl py-8 sm:py-14">
+        <div className="max-w-xl lg:max-w-xl xl:max-w-2xl py-4 sm:py-8">
           <div className="flex items-center gap-3 mb-6 sm:mb-7 animate-fade-in-up">
             <span className="w-11 h-[3px] bg-[#B08748] inline-block shrink-0" />
             <span className="text-[12px] sm:text-[14px] font-semibold tracking-[0.24em] text-[#CBD5E1] uppercase">
