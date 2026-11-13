@@ -9,7 +9,7 @@ import AnimateReveal from "./AnimateReveal";
 
 export default function Services() {
   return (
-    <section id="services" className="py-6 bg-white text-neutral-900 overflow-hidden">
+    <section id="services" className="py-10 bg-white text-neutral-900 overflow-hidden">
       <div className="max-w-[1450px] mx-auto px-6 sm:px-8 lg:px-12">
         <AnimateReveal direction="up" duration={800}>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center mb-14 sm:mb-16">

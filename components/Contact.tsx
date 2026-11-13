@@ -35,7 +35,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-6 bg-[#faf8f5] text-neutral-900 relative architectural-grid"
+      className="py-10 bg-[#faf8f5] text-neutral-900 relative architectural-grid"
     >
       <div className="max-w-[1450px] mx-auto px-6 sm:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">

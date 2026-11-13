@@ -8,7 +8,7 @@ import AnimateReveal from "./AnimateReveal";
 
 export default function WhyChooseUs() {
   return (
-    <section id="why-us" className="py-6 bg-white text-neutral-900 overflow-hidden">
+    <section id="why-us" className="py-10 bg-white text-neutral-900 overflow-hidden">
       <div className="max-w-[1450px] mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
           <div className="lg:col-span-6 flex flex-col justify-between">

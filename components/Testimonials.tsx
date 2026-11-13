@@ -21,7 +21,7 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="py-6 bg-[#faf8f5] text-neutral-900 relative overflow-hidden"
+      className="py-10 bg-[#faf8f5] text-neutral-900 relative overflow-hidden"
     >
       <div className="max-w-[1450px] mx-auto px-6 sm:px-8">
         <AnimateReveal direction="up" duration={800}>

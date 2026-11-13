@@ -8,7 +8,7 @@ import AnimateReveal from "./AnimateReveal";
 
 export default function About() {
   return (
-    <section id="about" className="py-6 bg-[#faf8f6] text-neutral-900 overflow-hidden">
+    <section id="about" className="py-10 bg-[#faf8f6] text-neutral-900 overflow-hidden">
       <div className="max-w-[1450px] mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-center">
           <div className="lg:col-span-6 relative flex items-center justify-center">
